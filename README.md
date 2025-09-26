@@ -1,6 +1,6 @@
 # CANVAS: A Benchmark for Vision-Language Models on Tool-Based UI Design
 
-This repository contains the source code for the [CANVAS project website](https://canvas-benchmark.github.io).
+This repository contains the source code for the [CANVAS project website](TBD).
 
 ## About CANVAS
 
@@ -26,11 +26,7 @@ CANVAS is the first benchmark to evaluate vision-language models' ability to per
 If you find CANVAS useful for your work, please cite:
 
 ```bibtex
-@article{canvas2025,
-  title={CANVAS: A Benchmark for Vision-Language Models on Tool-Based UI Design},
-  author={[Authors TBD]},
-  journal={AAAI},
-  year={2025}
+TBD
 }
 ```
 
