@@ -18,6 +18,7 @@ body {
 }
 
 
+
 .teaser .hero-body {
   padding-top: 0;
   padding-bottom: 3rem;
@@ -110,17 +111,51 @@ body {
 .publication-body img {
 }
 
+/* Carousel styles - force single item display */
 .results-carousel {
+  width: 100%;
   overflow: hidden;
 }
 
 .results-carousel .item {
-  margin: 5px;
-  overflow: hidden;
-  border: 1px solid #bbb;
-  border-radius: 10px;
-  padding: 0;
-  font-size: 0;
+  width: 100% !important;
+  min-width: 100% !important;
+  flex: 0 0 100% !important;
+  flex-shrink: 0 !important;
+  box-sizing: border-box;
+  display: block !important;
+}
+
+.results-carousel .item img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* Force single item on all screen sizes */
+@media (max-width: 1200px) {
+  .results-carousel .item {
+    width: 100% !important;
+    min-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .results-carousel .item {
+    width: 100% !important;
+    min-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .results-carousel .item {
+    width: 100% !important;
+    min-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
 }
 
 .results-carousel video {
