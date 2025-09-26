@@ -35,5 +35,5 @@ If you find CANVAS useful for your work, please cite:
 ```
 
 ## License
-
+The source code of this webpage is based on [Nerfies](https://github.com/nerfies/nerfies.github.io).
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
